@@ -44,7 +44,7 @@ struct ContactsDetailView: View {
                         Text(selectedContacts.title)
                             .font(.system(size: 22, weight: .medium))
                             .padding(.leading,10)
-                            Spacer()
+                        Spacer()
                     }
                     HStack{
                         Text(selectedContacts.subTitle)
@@ -94,7 +94,7 @@ struct ContactsDetailView: View {
                     
                     Button {
                         //future implementation, show in app browser brilleland.no, send user to website for purchase OR
-                        //In app Purchase 
+                        //In app Purchase
                     } label: {
                         Text("Kjøp")
                             .font(.system(size: 18))

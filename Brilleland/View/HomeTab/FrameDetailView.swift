@@ -82,7 +82,7 @@ struct FrameDetailView: View {
                 HStack{
                     
                     Button {
-                        //future implementation, show in app browser brilleland.no / contact info
+                        //future implementation, show in app browser (WebView) brilleland.no / contact info
                         //Could also be a buy/reserve button in the future
                     } label: {
                         Text("Finn butikk")
@@ -93,7 +93,6 @@ struct FrameDetailView: View {
                             .background(Color("brillelandPrimaryGreenColor"))
                             .cornerRadius(10)
                     }
-                    
                     
                 }
                 

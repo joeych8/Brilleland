@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeTabView: View {
     
-    private var numberOfAdImages = 5 //FIXME: find a way to use string instead of int as Image name and still have auto scroll to work.
+    private var numberOfAdImages = 5 //FIXME: find a way to use string instead of int as Image name and still have auto scroll work.
     // private var numberOfAdImages = ["brillelandBai", "brillelandBaiTwo", "brillelandSun", "brillelandEmpty"]
     
     private let timer = Timer.publish(every: 10, on: .main, in: .common).autoconnect()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4080B0427357A0F00978C61 /* PrescriptionPatientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4080B0327357A0F00978C61 /* PrescriptionPatientInfoView.swift */; };
 		D448D6B42726EF0B000D248D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B32726EF0B000D248D /* LoginView.swift */; };
 		D448D6B62726EF4A000D248D /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B52726EF4A000D248D /* HomeTabView.swift */; };
 		D448D6B82726EFB8000D248D /* PrescriptionTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4080B0327357A0F00978C61 /* PrescriptionPatientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionPatientInfoView.swift; sourceTree = "<group>"; };
+		D4080B052735DD6100978C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D448D6B32726EF0B000D248D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D448D6B52726EF4A000D248D /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTabView.swift; sourceTree = "<group>"; };
@@ -99,13 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4052087272DB972002E1822 /* PerscriptionTab */ = {
+		D4052087272DB972002E1822 /* PrescriptionTab */ = {
 			isa = PBXGroup;
 			children = (
 				D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */,
 				D47816B22734B49E00FA08B7 /* PrescriptionSubView.swift */,
+				D4080B0327357A0F00978C61 /* PrescriptionPatientInfoView.swift */,
 			);
-			path = PerscriptionTab;
+			path = PrescriptionTab;
 			sourceTree = "<group>";
 		};
 		D4052088272DB977002E1822 /* HomeTab */ = {
@@ -127,7 +131,7 @@
 				D4E2EEC027200FC300EFAD3D /* BrillelandTabView.swift */,
 				D49D957127303F440066A6C1 /* TabButton.swift */,
 				D4052088272DB977002E1822 /* HomeTab */,
-				D4052087272DB972002E1822 /* PerscriptionTab */,
+				D4052087272DB972002E1822 /* PrescriptionTab */,
 				D44EECF6272AC30D00BC6FB8 /* CustomNavigation.swift */,
 				D47816AB27348B2E00FA08B7 /* BookingTab */,
 			);
@@ -182,6 +186,7 @@
 		D4E2EEBD27200FC300EFAD3D /* Brilleland */ = {
 			isa = PBXGroup;
 			children = (
+				D4080B052735DD6100978C61 /* Info.plist */,
 				D4E2EEBE27200FC300EFAD3D /* BrillelandApp.swift */,
 				D448D6B02726EE8B000D248D /* View */,
 				D448D6B12726EEA0000D248D /* ViewModel */,
@@ -357,6 +362,7 @@
 				D49D9574273059490066A6C1 /* FrameCardView.swift in Sources */,
 				D46F73BA273385E3005CB61C /* ContactsDetailView.swift in Sources */,
 				D448D6B62726EF4A000D248D /* HomeTabView.swift in Sources */,
+				D4080B0427357A0F00978C61 /* PrescriptionPatientInfoView.swift in Sources */,
 				D47816B32734B49E00FA08B7 /* PrescriptionSubView.swift in Sources */,
 				D4E2EEC127200FC300EFAD3D /* BrillelandTabView.swift in Sources */,
 				D4E2EEBF27200FC300EFAD3D /* BrillelandApp.swift in Sources */,
@@ -526,9 +532,11 @@
 				DEVELOPMENT_TEAM = 5M25AF53JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Brilleland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -556,9 +564,11 @@
 				DEVELOPMENT_TEAM = 5M25AF53JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Brilleland/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
