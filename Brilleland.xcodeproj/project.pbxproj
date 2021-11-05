@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D448D6B42726EF0B000D248D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B32726EF0B000D248D /* LoginView.swift */; };
+		D448D6B62726EF4A000D248D /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B52726EF4A000D248D /* HomeTabView.swift */; };
+		D448D6B82726EFB8000D248D /* PrescriptionTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */; };
+		D44E3B01272C01DB00160891 /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E3B00272C01DB00160891 /* HomeTabViewModel.swift */; };
+		D44E3B03272C022400160891 /* HomeTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E3B02272C022400160891 /* HomeTabModel.swift */; };
+		D44EECF7272AC30D00BC6FB8 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EECF6272AC30D00BC6FB8 /* CustomNavigation.swift */; };
+		D46F73B82732FFB6005CB61C /* FrameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F73B72732FFB6005CB61C /* FrameDetailView.swift */; };
+		D46F73BA273385E3005CB61C /* ContactsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F73B9273385E3005CB61C /* ContactsDetailView.swift */; };
+		D47816AD27348B7600FA08B7 /* BookingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47816AC27348B7600FA08B7 /* BookingTabView.swift */; };
+		D47816B12734B20D00FA08B7 /* PrescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47816B02734B20D00FA08B7 /* PrescriptionModel.swift */; };
+		D47816B32734B49E00FA08B7 /* PrescriptionSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47816B22734B49E00FA08B7 /* PrescriptionSubView.swift */; };
+		D49D957227303F440066A6C1 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D957127303F440066A6C1 /* TabButton.swift */; };
+		D49D9574273059490066A6C1 /* FrameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D9573273059490066A6C1 /* FrameCardView.swift */; };
+		D49D9576273092670066A6C1 /* ContactsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D9575273092670066A6C1 /* ContactsCardView.swift */; };
+		D4E2EEBF27200FC300EFAD3D /* BrillelandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2EEBE27200FC300EFAD3D /* BrillelandApp.swift */; };
+		D4E2EEC127200FC300EFAD3D /* BrillelandTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2EEC027200FC300EFAD3D /* BrillelandTabView.swift */; };
+		D4E2EEC327200FC500EFAD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E2EEC227200FC500EFAD3D /* Assets.xcassets */; };
+		D4E2EEC627200FC500EFAD3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E2EEC527200FC500EFAD3D /* Preview Assets.xcassets */; };
+		D4E2EED027200FC600EFAD3D /* BrillelandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2EECF27200FC600EFAD3D /* BrillelandTests.swift */; };
+		D4E2EEDA27200FC600EFAD3D /* BrillelandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2EED927200FC600EFAD3D /* BrillelandUITests.swift */; };
+		D4E2EEDC27200FC600EFAD3D /* BrillelandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2EEDB27200FC600EFAD3D /* BrillelandUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E2EECC27200FC600EFAD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E2EEB327200FC300EFAD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E2EEBA27200FC300EFAD3D;
+			remoteInfo = Brilleland;
+		};
+		D4E2EED627200FC600EFAD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E2EEB327200FC300EFAD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E2EEBA27200FC300EFAD3D;
+			remoteInfo = Brilleland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D448D6B32726EF0B000D248D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D448D6B52726EF4A000D248D /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTabView.swift; sourceTree = "<group>"; };
+		D44E3B00272C01DB00160891 /* HomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
+		D44E3B02272C022400160891 /* HomeTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabModel.swift; sourceTree = "<group>"; };
+		D44EECF6272AC30D00BC6FB8 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		D46F73B72732FFB6005CB61C /* FrameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetailView.swift; sourceTree = "<group>"; };
+		D46F73B9273385E3005CB61C /* ContactsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailView.swift; sourceTree = "<group>"; };
+		D47816AC27348B7600FA08B7 /* BookingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTabView.swift; sourceTree = "<group>"; };
+		D47816B02734B20D00FA08B7 /* PrescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionModel.swift; sourceTree = "<group>"; };
+		D47816B22734B49E00FA08B7 /* PrescriptionSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionSubView.swift; sourceTree = "<group>"; };
+		D49D957127303F440066A6C1 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		D49D9573273059490066A6C1 /* FrameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCardView.swift; sourceTree = "<group>"; };
+		D49D9575273092670066A6C1 /* ContactsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCardView.swift; sourceTree = "<group>"; };
+		D4E2EEBB27200FC300EFAD3D /* Brilleland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brilleland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2EEBE27200FC300EFAD3D /* BrillelandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillelandApp.swift; sourceTree = "<group>"; };
+		D4E2EEC027200FC300EFAD3D /* BrillelandTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillelandTabView.swift; sourceTree = "<group>"; };
+		D4E2EEC227200FC500EFAD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E2EEC527200FC500EFAD3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4E2EECB27200FC600EFAD3D /* BrillelandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrillelandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2EECF27200FC600EFAD3D /* BrillelandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillelandTests.swift; sourceTree = "<group>"; };
+		D4E2EED527200FC600EFAD3D /* BrillelandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrillelandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E2EED927200FC600EFAD3D /* BrillelandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillelandUITests.swift; sourceTree = "<group>"; };
+		D4E2EEDB27200FC600EFAD3D /* BrillelandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillelandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E2EEB827200FC300EFAD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EEC827200FC600EFAD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EED227200FC600EFAD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4052087272DB972002E1822 /* PerscriptionTab */ = {
+			isa = PBXGroup;
+			children = (
+				D448D6B72726EFB8000D248D /* PrescriptionTabView.swift */,
+				D47816B22734B49E00FA08B7 /* PrescriptionSubView.swift */,
+			);
+			path = PerscriptionTab;
+			sourceTree = "<group>";
+		};
+		D4052088272DB977002E1822 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				D448D6B52726EF4A000D248D /* HomeTabView.swift */,
+				D49D9573273059490066A6C1 /* FrameCardView.swift */,
+				D49D9575273092670066A6C1 /* ContactsCardView.swift */,
+				D46F73B72732FFB6005CB61C /* FrameDetailView.swift */,
+				D46F73B9273385E3005CB61C /* ContactsDetailView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		D448D6B02726EE8B000D248D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D448D6B32726EF0B000D248D /* LoginView.swift */,
+				D4E2EEC027200FC300EFAD3D /* BrillelandTabView.swift */,
+				D49D957127303F440066A6C1 /* TabButton.swift */,
+				D4052088272DB977002E1822 /* HomeTab */,
+				D4052087272DB972002E1822 /* PerscriptionTab */,
+				D44EECF6272AC30D00BC6FB8 /* CustomNavigation.swift */,
+				D47816AB27348B2E00FA08B7 /* BookingTab */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D448D6B12726EEA0000D248D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D44E3B00272C01DB00160891 /* HomeTabViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D448D6B22726EEB2000D248D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D44E3B02272C022400160891 /* HomeTabModel.swift */,
+				D47816B02734B20D00FA08B7 /* PrescriptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D47816AB27348B2E00FA08B7 /* BookingTab */ = {
+			isa = PBXGroup;
+			children = (
+				D47816AC27348B7600FA08B7 /* BookingTabView.swift */,
+			);
+			path = BookingTab;
+			sourceTree = "<group>";
+		};
+		D4E2EEB227200FC300EFAD3D = {
+			isa = PBXGroup;
+			children = (
+				D4E2EEBD27200FC300EFAD3D /* Brilleland */,
+				D4E2EECE27200FC600EFAD3D /* BrillelandTests */,
+				D4E2EED827200FC600EFAD3D /* BrillelandUITests */,
+				D4E2EEBC27200FC300EFAD3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E2EEBC27200FC300EFAD3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2EEBB27200FC300EFAD3D /* Brilleland.app */,
+				D4E2EECB27200FC600EFAD3D /* BrillelandTests.xctest */,
+				D4E2EED527200FC600EFAD3D /* BrillelandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E2EEBD27200FC300EFAD3D /* Brilleland */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2EEBE27200FC300EFAD3D /* BrillelandApp.swift */,
+				D448D6B02726EE8B000D248D /* View */,
+				D448D6B12726EEA0000D248D /* ViewModel */,
+				D448D6B22726EEB2000D248D /* Model */,
+				D4E2EEC227200FC500EFAD3D /* Assets.xcassets */,
+				D4E2EEC427200FC500EFAD3D /* Preview Content */,
+			);
+			path = Brilleland;
+			sourceTree = "<group>";
+		};
+		D4E2EEC427200FC500EFAD3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2EEC527200FC500EFAD3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4E2EECE27200FC600EFAD3D /* BrillelandTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2EECF27200FC600EFAD3D /* BrillelandTests.swift */,
+			);
+			path = BrillelandTests;
+			sourceTree = "<group>";
+		};
+		D4E2EED827200FC600EFAD3D /* BrillelandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E2EED927200FC600EFAD3D /* BrillelandUITests.swift */,
+				D4E2EEDB27200FC600EFAD3D /* BrillelandUITestsLaunchTests.swift */,
+			);
+			path = BrillelandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E2EEBA27200FC300EFAD3D /* Brilleland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2EEDF27200FC600EFAD3D /* Build configuration list for PBXNativeTarget "Brilleland" */;
+			buildPhases = (
+				D4E2EEB727200FC300EFAD3D /* Sources */,
+				D4E2EEB827200FC300EFAD3D /* Frameworks */,
+				D4E2EEB927200FC300EFAD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brilleland;
+			productName = Brilleland;
+			productReference = D4E2EEBB27200FC300EFAD3D /* Brilleland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E2EECA27200FC600EFAD3D /* BrillelandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2EEE227200FC600EFAD3D /* Build configuration list for PBXNativeTarget "BrillelandTests" */;
+			buildPhases = (
+				D4E2EEC727200FC600EFAD3D /* Sources */,
+				D4E2EEC827200FC600EFAD3D /* Frameworks */,
+				D4E2EEC927200FC600EFAD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E2EECD27200FC600EFAD3D /* PBXTargetDependency */,
+			);
+			name = BrillelandTests;
+			productName = BrillelandTests;
+			productReference = D4E2EECB27200FC600EFAD3D /* BrillelandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4E2EED427200FC600EFAD3D /* BrillelandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E2EEE527200FC600EFAD3D /* Build configuration list for PBXNativeTarget "BrillelandUITests" */;
+			buildPhases = (
+				D4E2EED127200FC600EFAD3D /* Sources */,
+				D4E2EED227200FC600EFAD3D /* Frameworks */,
+				D4E2EED327200FC600EFAD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E2EED727200FC600EFAD3D /* PBXTargetDependency */,
+			);
+			name = BrillelandUITests;
+			productName = BrillelandUITests;
+			productReference = D4E2EED527200FC600EFAD3D /* BrillelandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E2EEB327200FC300EFAD3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D4E2EEBA27200FC300EFAD3D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D4E2EECA27200FC600EFAD3D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D4E2EEBA27200FC300EFAD3D;
+					};
+					D4E2EED427200FC600EFAD3D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D4E2EEBA27200FC300EFAD3D;
+					};
+				};
+			};
+			buildConfigurationList = D4E2EEB627200FC300EFAD3D /* Build configuration list for PBXProject "Brilleland" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E2EEB227200FC300EFAD3D;
+			productRefGroup = D4E2EEBC27200FC300EFAD3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E2EEBA27200FC300EFAD3D /* Brilleland */,
+				D4E2EECA27200FC600EFAD3D /* BrillelandTests */,
+				D4E2EED427200FC600EFAD3D /* BrillelandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E2EEB927200FC300EFAD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2EEC627200FC500EFAD3D /* Preview Assets.xcassets in Resources */,
+				D4E2EEC327200FC500EFAD3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EEC927200FC600EFAD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EED327200FC600EFAD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E2EEB727200FC300EFAD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49D9576273092670066A6C1 /* ContactsCardView.swift in Sources */,
+				D49D957227303F440066A6C1 /* TabButton.swift in Sources */,
+				D47816AD27348B7600FA08B7 /* BookingTabView.swift in Sources */,
+				D448D6B82726EFB8000D248D /* PrescriptionTabView.swift in Sources */,
+				D448D6B42726EF0B000D248D /* LoginView.swift in Sources */,
+				D44EECF7272AC30D00BC6FB8 /* CustomNavigation.swift in Sources */,
+				D46F73B82732FFB6005CB61C /* FrameDetailView.swift in Sources */,
+				D49D9574273059490066A6C1 /* FrameCardView.swift in Sources */,
+				D46F73BA273385E3005CB61C /* ContactsDetailView.swift in Sources */,
+				D448D6B62726EF4A000D248D /* HomeTabView.swift in Sources */,
+				D47816B32734B49E00FA08B7 /* PrescriptionSubView.swift in Sources */,
+				D4E2EEC127200FC300EFAD3D /* BrillelandTabView.swift in Sources */,
+				D4E2EEBF27200FC300EFAD3D /* BrillelandApp.swift in Sources */,
+				D44E3B03272C022400160891 /* HomeTabModel.swift in Sources */,
+				D44E3B01272C01DB00160891 /* HomeTabViewModel.swift in Sources */,
+				D47816B12734B20D00FA08B7 /* PrescriptionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EEC727200FC600EFAD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2EED027200FC600EFAD3D /* BrillelandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E2EED127200FC600EFAD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E2EEDA27200FC600EFAD3D /* BrillelandUITests.swift in Sources */,
+				D4E2EEDC27200FC600EFAD3D /* BrillelandUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E2EECD27200FC600EFAD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E2EEBA27200FC300EFAD3D /* Brilleland */;
+			targetProxy = D4E2EECC27200FC600EFAD3D /* PBXContainerItemProxy */;
+		};
+		D4E2EED727200FC600EFAD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E2EEBA27200FC300EFAD3D /* Brilleland */;
+			targetProxy = D4E2EED627200FC600EFAD3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4E2EEDD27200FC600EFAD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4E2EEDE27200FC600EFAD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E2EEE027200FC600EFAD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brilleland/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.Brilleland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E2EEE127200FC600EFAD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brilleland/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.Brilleland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4E2EEE327200FC600EFAD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.BrillelandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brilleland.app/Brilleland";
+			};
+			name = Debug;
+		};
+		D4E2EEE427200FC600EFAD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.BrillelandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brilleland.app/Brilleland";
+			};
+			name = Release;
+		};
+		D4E2EEE627200FC600EFAD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.BrillelandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brilleland;
+			};
+			name = Debug;
+		};
+		D4E2EEE727200FC600EFAD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M25AF53JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyc.BrillelandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brilleland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E2EEB627200FC300EFAD3D /* Build configuration list for PBXProject "Brilleland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2EEDD27200FC600EFAD3D /* Debug */,
+				D4E2EEDE27200FC600EFAD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2EEDF27200FC600EFAD3D /* Build configuration list for PBXNativeTarget "Brilleland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2EEE027200FC600EFAD3D /* Debug */,
+				D4E2EEE127200FC600EFAD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2EEE227200FC600EFAD3D /* Build configuration list for PBXNativeTarget "BrillelandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2EEE327200FC600EFAD3D /* Debug */,
+				D4E2EEE427200FC600EFAD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E2EEE527200FC600EFAD3D /* Build configuration list for PBXNativeTarget "BrillelandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E2EEE627200FC600EFAD3D /* Debug */,
+				D4E2EEE727200FC600EFAD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E2EEB327200FC300EFAD3D /* Project object */;
+}
