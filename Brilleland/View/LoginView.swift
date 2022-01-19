@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//Test
 struct LoginView: View {
     
     @Binding var isLoggedIn: Bool
