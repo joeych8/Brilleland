@@ -17,7 +17,7 @@ I had to put this project on pause due to new assignments and work. I find this 
 
 ## Features to be implemented
 
-- Firebase Authentication
+- Firebase authentication
 - print/email prescription
 - Google maps
 - Biometrics
