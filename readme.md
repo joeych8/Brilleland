@@ -15,7 +15,7 @@ I had to put this project on pause due to new assignments and work. I find this 
 
 <!--![](readMeImg/Screenshot1.png) ![](readMeImg/Screenshot2.png) ![](readMeImg/Screenshot3.png) -->
 
-## Features I want to implemented
+## Features to be implemented
 
 - Firebase Authentication
 - print/email prescription
